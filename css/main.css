@@ -1,0 +1,44 @@
+/************ HTMLs ***********/
+body {
+    background-color: brown;
+}
+button {
+    padding: 10px;
+}
+div{
+    color: white;
+    margin: 10px;
+}
+ul{
+    list-style-type: none;
+}
+ul > li {
+    padding: 10px;
+}
+/************ CLASSES ***********/
+.col-1 { width: 5%; }
+.col-2 { width: 85%; }
+.col-3 { width: 10%; }
+.col-4 {
+    text-align: center;
+    width: 100%;
+}
+.col-5 {
+    text-align: center;
+    width: 100%;
+}
+.col-6 { width: 90%; }
+.col-7 { width: 10%; }
+.row {
+    display: flex;
+    width: 100%;
+}
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.title_bar {
+    width: 45px;
+    height: 45px;
+}
