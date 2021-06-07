@@ -1,3 +1,11 @@
+const test_1 = [
+    {
+
+    },
+    {
+        
+    }
+];
 function submit_button(){
     if(document.getElementById("testTitle").style.color != "red"){
         document.getElementById("testTitle").style.color = "red";  
